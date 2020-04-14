@@ -1,0 +1,9 @@
+# The super gitignore
+
+# Sorry, I am a Mac User.
+.DS_Store
+
+# Not including VSCode configs.
+.vscode/
+
+common/credentials.php
