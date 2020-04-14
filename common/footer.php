@@ -6,5 +6,6 @@
             </ul>
             <p class="copyright">Developed by Alex4386<br>
             This software is in beta stage. It might not function well.<br>
-            This software is distributed under MIT License<br>Source Code</p>
+            This software is distributed under MIT License<br>
+            <a href="https://github.com/Alex4386/gachon-webex-router">Source Code</a></p>
         </footer>
