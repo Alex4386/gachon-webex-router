@@ -75,19 +75,20 @@
 
 
 <body>
-    <div class="footer-basic">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-sm-11 col-md-11 col-xl-8 offset-sm-1 offset-md-1 offset-xl-2 text-left">
-                    <h1>Gachon WebEx Router</h1>
-                    <p>등록되지 않은 교수님입니다.<br>교수님의 Webex 접속 주소를 입력해 주시면 <br>검토 후 추가하겠습니다.</p>
-                    <form method="post">
-                        <input class="border rounded mb-3" name="professor_url" type="text" autofocus style="width: 100%;font-size: 2em;" placeholder="접속 주소" />
-                        <button class="btn btn-primary mb-5" type="submit">추가</button>
-                    </form>
-                </div>
+    
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-11 col-md-11 col-xl-8 offset-sm-1 offset-md-1 offset-xl-2 text-left">
+                <h1>Gachon WebEx Router</h1>
+                <p>등록되지 않은 교수님입니다.<br>교수님의 Webex 접속 주소를 입력해 주시면 <br>검토 후 추가하겠습니다.</p>
+                <form method="post">
+                    <input class="border rounded mb-3" name="professor_url" type="text" autofocus style="width: 100%;font-size: 2em;" placeholder="접속 주소" />
+                    <button class="btn btn-primary mb-5" type="submit">추가</button>
+                </form>
             </div>
         </div>
+    </div>
+    <div class="footer-basic">
         <?php include __DIR__."/common/footer.php"; ?>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
